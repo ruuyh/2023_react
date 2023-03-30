@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
-
+// import를 이용하여 다른 파일에서 값을 가져올떄
+// export를 이용해서 내보내는 값
 export default App;
