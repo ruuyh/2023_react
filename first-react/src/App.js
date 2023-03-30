@@ -5,6 +5,7 @@ import MyComponent from './components/MyComponent';
 // 각각 가져와야 쓸 수 있다
 import LoginComp from './components/LoginComp';
 import { LoginText } from './components/LoginComp';
+import TextComp from './components/TextComp';
 
 function App() {
   return (
@@ -17,6 +18,13 @@ function App() {
       {/** props값을 전달하지 않으면 undefined로 들어감 */}
 
       <LoginComp>내용 전달</LoginComp>
+      {/**새로운 TextComp를 만들어서 children에 들어간 값을
+       * h1태그에 넣어서 출력하세요
+       * name값을 받아와서 p태그에 name님을 출력한다
+       */}
+       <TextComp name="홍길동">반갑습니다</TextComp>
+       <TextComp name="그린">반갑습니다</TextComp>
+
     </div>
   );
 }

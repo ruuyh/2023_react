@@ -5,7 +5,7 @@ class LoginComp extends Component {
         // 클래스에서 props 값을 가져올때는 this.props을 통해들고온다
         // this.props은 Component에서 상속받아온 속성
         // this.props = {login:true, name:"홍길동"};
-        // 구조화 할당
+        // 비구조화 할당 (구조 분해)
         // : 배열이나 객체와같이 값이 여러개인 자료형을
         // 안에 있는 요소를 꺼내서 각각의 변수에 따로 저장하는 방식
         const prop = this.props;
@@ -18,7 +18,7 @@ class LoginComp extends Component {
         // const login = true;
         return (
             <div>
-              <h1>{name}</h1>
+            <h1>{name}</h1>
                 <p>{children}</p>
                 { 
                     login ?
