@@ -1,6 +1,7 @@
 import './App.css';
 import PropsComp from './Components/PropsComp';
 import CountComp from './Components/CountComp';
+import CountPropsComp from './Components/CountPropsComp';
 
 function App() {
   return (
