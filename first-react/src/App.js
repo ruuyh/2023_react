@@ -13,6 +13,11 @@ import StateComp from './components/StateComp';
 
 import EventComp from './components/EventComp';
 
+import RefDomEvent from './components/RefDomEvent';
+import MapComp from './components/MapComp';
+
+import LifeCycle from './components/LifeCycle';
+
 /** 리액트에서 오류가 뜨는 이유 
  * 1. 존재하지 않는 컴포넌트 출력 
  * (컴포넌트를 만든 이후에 이름은 가능하면 바꾸지 말 것
@@ -38,16 +43,25 @@ function App() {
       <TextComp name="홍길동">반갑습니다</TextComp>
       <TextComp name="성춘향">환영합니다</TextComp>
       <OtherComp name={123}/>
-
-      {/** State를 가진 컴포넌트 
-       * state를 가진 컴포넌트 다시 사용해도 독립적으로 사용
-      */}
       
+      {/** State를 가진 컴포넌트
+       * state를 가진 컴포넌트는 다시 사용해도 독립적으로 사용
+       */}
       <StateComp />
       <StateComp />
       
-      {/**이벤트 */}
+      {/** 이벤트 */}
       <EventComp />
+
+      {/** RefDom */}
+      <RefDomEvent />
+
+      {/** 컴포넌트의 반복 */}
+      <MapComp />
+
+      {/** 라이프사이클 */}
+      <LifeCycle />
+
     </div>
   );
 }

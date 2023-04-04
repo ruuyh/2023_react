@@ -3,6 +3,7 @@ import PropsComp from './Components/PropsComp';
 import CountComp from './Components/CountComp';
 import CountPropsComp from './Components/CountPropsComp';
 import LoginComp from './Components/LoginComp';
+import MemoComp from './Components/MemoComp';
 
 function App() {
   return (
