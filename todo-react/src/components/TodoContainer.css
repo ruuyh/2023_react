@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Dovemayo_gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.on {
+ text-decoration: line-through;
+ color: gray;
+}
+
+ul {
+list-style: none;
+}
+
+div {
+  background-image: url(./pink.jpg);
+  width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  font-family: 'Dovemayo_gothic';
+}
+
+button {
+  font-family: 'Dovemayo_gothic';;
+}
