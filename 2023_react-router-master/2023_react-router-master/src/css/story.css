@@ -1,0 +1,22 @@
+.name-story {
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
+.name-story a {
+    padding: 10px 15px;
+    color: rgb(162, 225, 185);
+    text-decoration: none;
+}
+
+.name-story a:hover {
+    color: rgb(28, 129, 12);
+}
+
+.box {
+    background-color: rgba(170, 246, 184, 0.292);
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
